@@ -1,0 +1,86 @@
+.income_page{
+    display:flex;
+    position:relative;
+}
+.in_chart{
+    position: fixed;
+   
+    height:48vh;
+    width:50vw;
+    margin-left: -32.4%;
+    margin-top:5.5%;
+    border: 2px solid #d4c7c7; /* Add border with white color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.901); 
+   border-radius:2%;
+   background-color: #000000;
+    
+}
+.in_cat{
+    position: fixed;
+    background-color: #ffffff;
+    height:38.5vh;
+    width:50vw;
+    margin-left: -32.4%;
+    margin-top:29.5%;
+    border: 2px solid #d4c7c7; /* Add border with white color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.901); 
+   border-radius:2%;
+    
+}
+.add_in{
+    position: fixed;
+   
+    height:48vh;
+    width:31vw;
+    margin-left: 18.5%;
+    margin-top: 5.5%;
+    border: 2px solid #d4c7c7; /* Add border with white color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.901); 
+    border-radius:2%;
+    background-color: #000000;
+    
+}
+.more_in{
+    position: fixed;
+    height:38.5vh;
+    width:31vw;
+    margin-left:18.5%;
+    margin-top:29.5%;
+    border: 2px solid #d4c7c7; /* Add border with white color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.901); 
+    border-radius:2%;
+    background-color: #000000;
+    color:white;
+    
+}
+.in_area{
+    width:26%;
+    padding:.9%;
+    text-align: center;
+    font-weight: 600;
+    margin-top:2%;
+    border-radius: 9px;
+    color:white;
+    background:linear-gradient(#b789dc,#8139bc);
+    margin-left:20%;
+}
+.cat_dbtn{
+    width:26%;
+    padding:.9%;
+    margin-top: 2%;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 9px;
+    color:white;
+    background:linear-gradient(#b789dc,#8139bc);
+    margin-left:10%
+    
+    }
+ .in_area:hover{
+    background: linear-gradient(#8139bc,#b789dc);
+    
+}
+.cat_dbtn:hover{
+    background: linear-gradient(#8139bc,#b789dc);
+    
+}

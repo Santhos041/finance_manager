@@ -1,0 +1,44 @@
+.topnav {
+  background-color:black;
+    overflow: hidden;
+    width: 83vw;
+    display: flex;
+    justify-content:end;
+    position: fixed;
+    left:17%;
+    top:0;
+   border-radius:2%;
+   height:10%;
+    
+  }
+
+.topnav a {
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 50px;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  
+}
+ li{
+  list-style-type: none;
+  margin-top:1.5%;
+  text-align: center
+  
+ }
+  
+  .topnav a:hover {
+    background: linear-gradient(#b789dc,#8139bc);
+    color: black;
+    border-radius: 10px;
+  }
+  .profile {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 13px;
+    margin-top:10px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+  }

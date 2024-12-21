@@ -1,0 +1,80 @@
+.expense_page{
+    display:flex;
+    position: relative;
+}
+.ex_chart{
+    position: fixed;
+    background-color: #000000;
+    height:53vh;
+    width:41vw;
+    margin-left: -32.4%;
+    margin-top:5.5%;
+    border: 2px solid #d4c7c7; /* Add border with white color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.901); 
+   border-radius:2%;
+    
+}
+.ex_form{
+    position: fixed;
+    background-color: #000000;
+    height:53vh;
+    width:40vw;
+    margin-left: 9.5%;
+    margin-top: 5.5%;
+    border: 2px solid #d4c7c7; /* Add border with white color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.901); 
+    border-radius:2%;
+    
+}
+.ex_report{
+    position: fixed;
+    background-color: #effef7;
+    height:33.5vh;
+    width:82%;
+
+    margin-left: -32.4%;
+    margin-top:32%;
+    border: 2px solid #d4c7c7; /* Add border with white color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.901); 
+   border-radius:2%;
+    
+}
+.ex_daycat {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.cat_btn{
+    width:26%;
+    padding:.9%;
+    text-align: center;
+    font-weight: 600;
+    margin-top:2%;
+    border-radius: 9px;
+    color:rgb(242, 241, 241);
+    background: linear-gradient(#b789dc,#8139bc);
+}
+.day_btn:hover
+{ 
+    background: linear-gradient(#8139bc,#b789dc);
+   
+}
+.day_btn{
+width:26%;
+padding:.9%;
+margin-top: 2%;
+text-align: center;
+font-weight: 600;
+border-radius: 9px; 
+color:rgb(242, 241, 241);
+background: linear-gradient(#b789dc,#8139bc);
+margin-left:10%
+
+}
+
+
+.cat_btn:hover
+{
+    background: linear-gradient(#8139bc,#b789dc);
+   
+}

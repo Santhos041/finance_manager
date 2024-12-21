@@ -1,0 +1,45 @@
+
+
+.db_more{
+    position: fixed;
+    color:rgba(255, 255, 255, 0.911);
+    background-color: #000000;
+    height:53vh;
+    width:36vw;
+    margin-left: 13.5%;
+    margin-top: 5.5%;
+    border: 2px solid #ffffff; /* Add border with white color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.901); 
+    border-radius:2%;
+    
+}.db_balance{
+    height:25%;
+    width:60%;
+    background:linear-gradient(#b789dc,#8139bc);
+    border-radius: 8px ;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.901); 
+   
+    transform:translate(37%, 80%);
+}
+.db_expense{
+    height:25%;
+    width:60%;
+    background:linear-gradient(#b789dc,#8139bc);
+    border-radius: 8px ;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.901); 
+   
+    transform:translate(37%, 140%);
+
+}
+
+h2{
+    margin-left: 40%;
+
+
+}
+h1{
+    margin-left: 42%;
+    margin-top: -20px;
+
+
+}

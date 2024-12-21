@@ -1,0 +1,74 @@
+ h3 {
+    text-align: center;
+    margin-top:5%;
+    
+
+}
+.in_form{
+ background-color: #000000;
+ color:white;
+    height:17rem;
+    width:70%;
+    margin-left:17%;
+    margin-top:5%;
+    border-radius:10px;
+}
+.addincome label{
+    font-weight: bold;
+    padding:20px;
+    margin-top:5px;
+  }
+  .addincome input{
+    border-radius:4px;
+    border-width: 3px;
+    padding:4px;
+    margin-top:17px;
+    
+    width:50%;
+  }
+  #in_date{
+    margin-left:28px;
+  }
+  #in_income{
+    margin-left:9px;
+  }
+  #in_cat{
+    margin-left:-1px;
+  }
+
+  #in_description{
+    margin-left:-20px;
+    border-radius:4px;
+    border-width: 3px;
+    padding:4px;
+    margin-top:4%;
+    width:50%;
+    height:15%;
+
+
+  }
+  .in_save{
+    margin-left:35%;
+    margin-top:7%;
+    height:35px;
+    width:40%;
+    border-radius:10px;
+    color:white;
+    background:linear-gradient(#b789dc,#8139bc);
+    font-weight: bold;
+  }
+  .in_save:hover{
+    background:linear-gradient(#8139bc,#b789dc);
+    
+  }
+  .addincome h3{
+
+    background:linear-gradient(#b789dc,#8139bc);
+    padding:10px;
+    color: #ffffff;
+    margin-top:2%;
+    width:40%;
+    border-radius: 10px;
+    margin-left: 33%;
+  }
+  

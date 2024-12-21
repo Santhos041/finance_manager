@@ -1,0 +1,46 @@
+
+
+.dashboard{
+    display:flex;
+    position: relative;
+    
+}
+.db_chart{
+    position: fixed;
+    background-color:black;
+    height:53vh;
+    width:45vw;
+    margin-left: -32.4%;
+    margin-top:5.5%;
+    border: 2px solid #d4c7c7; /* Add border with white color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.901); 
+   border-radius:2%;
+    
+}
+.db_report{
+    position: fixed;
+    background-color: #effef7;
+    height:33.5vh;
+    width:82%;
+
+    margin-left: -32.4%;
+    margin-top:32%;
+    border: 2px solid #d4c7c7; /* Add border with white color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.901); 
+   border-radius:13px;
+    
+   
+}
+.db_exin .btn{
+    margin-left:18% ;
+    margin-top:2%;
+    padding:6px;
+    font-weight: 600;
+    border-radius: 5px;
+    width:25%;
+    color:rgb(242, 241, 241);
+    background: linear-gradient(#b789dc,#8139bc);
+}
+.db_exin .btn:hover{
+    background: linear-gradient(#b789dc,#8139bc);
+}

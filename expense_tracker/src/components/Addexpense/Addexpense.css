@@ -1,0 +1,97 @@
+.add_expense {
+    position: fixed;
+    top: 8%;
+    right:5%;
+    width: 29%; /* Adjust width as needed */
+    height: 50%;
+    border-radius: 20px;
+    margin-top:3%
+    
+  }
+  .add_expense{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+  }
+  
+  .datacard {
+    width: calc(30% - 1vw);
+    background-color: #000000;
+    border-radius: 0.5em;
+    padding: 1em;
+  }
+  
+  .add_expense h3{
+    display: flex;
+    justify-content:center;
+    margin-top:3%;
+    color:rgb(242, 241, 241);
+    background: linear-gradient(#b789dc,#8139bc);
+    padding:5px;
+    border-radius: 5px;
+    width:50%;
+    margin-left: 30%;
+    
+  }
+  .add_expense label{
+    font-weight: bold;
+    color:white;
+    margin-left:15px;
+    padding: 0px;
+    padding:30px;
+    margin-top:5px
+  }
+  .add_expense input{
+    
+    border-radius:7px;
+    border-width: 3px;
+    height:36px;
+    padding:4px;
+    margin-top:15px;
+  }
+  #amount, #category{
+    width:40%;
+  }
+  #category{
+    margin-bottom:17px;
+    margin-left:-8px;
+  }
+  #date,#account,#description{
+    margin-top:13px;
+    height:35px;
+  }
+  #account{
+    border-radius:5px;
+    border-width:3px;
+    padding:4px;
+    width:38.5%;
+    
+  }
+  #in_date{
+    margin-left:27px;
+  }
+  #description{
+    margin-left:40px;
+    border-radius:8px;
+    border-width:3px;
+  }
+  #account .option{
+    border-width:3px;
+  }
+   #btn input{
+    color:rgb(242, 241, 241);
+    background: linear-gradient(#b789dc,#8139bc);
+    margin-left:130px;
+    width:110px;
+    height:2rem;
+    font-size:medium;
+    font-weight: 700;
+    margin-bottom: 9%;
+    border-radius:8px;
+    
+   }
+   #btn input:hover{
+    background: linear-gradient(#8139bc,#b789dc);
+
+   }

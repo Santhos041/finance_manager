@@ -1,0 +1,20 @@
+.income-summary p{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top:25px;
+    font-weight: bolder;
+}
+.income-summary h3{
+    color:white;
+    background:linear-gradient(#b789dc,#8139bc);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 26%;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    
+    width: 50%;
+    
+}
